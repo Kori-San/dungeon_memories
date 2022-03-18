@@ -1,0 +1,8 @@
+info: # Write as much as you want to display in the first Table
+  info1: 'First Information'
+  info2: 'Second Information'
+  infoN: 'Nth Information'
+stat: # Write as much as you want to display in the second Table
+  stat1: 'First Statistic to appear'
+  stat2: 'Second Statistic to appear'
+  infoN: 'Nth Statistic to appear'

@@ -1,0 +1,13 @@
+info:
+  Name: 'Dave'
+  Surname: "Ah'khin"
+  Gender: 'Male'
+  Age: '?? Years Old'
+  Occupation: 'Dragon Slayer'
+stat:
+  Strenght: '70'
+  Dexterity: '50'
+  Intelligence: '30'
+  Social: '15'
+  Observation: '50'
+  Luck: '50'

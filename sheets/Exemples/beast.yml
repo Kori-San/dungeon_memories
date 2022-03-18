@@ -1,0 +1,11 @@
+info:
+  Type: 'Mountain Beast'
+  Species: 'Troll'
+  HP: '300'
+stat:
+  Strenght: '90'
+  Dexterity: '5'
+  Intelligence: '5'
+  Social: '0'
+  Observation: '0'
+  Luck: '0'

@@ -1,0 +1,13 @@
+info:
+  Name: 'Bob'
+  Surname: 'Arrow-in-knee'
+  Gender: 'Male'
+  Age: '35 Years Old'
+  Occupation: 'Soldier'
+stat:
+  Strenght: '40'
+  Dexterity: '30'
+  Intelligence: '35'
+  Social: '30'
+  Observation: '15'
+  Luck: '50'

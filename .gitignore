@@ -1,0 +1,7 @@
+# Exclude __pycache__
+*/__pycache__/
+__pycache__/
+# Exclude personal sheets and Push Templates
+sheets/*
+!sheets/Exemples/
+!sheets/template.yaml
