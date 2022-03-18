@@ -2,6 +2,10 @@
 from src.header import *
 
 
+def pretty_split():
+    print('\n——————————————————————\n')
+
+
 def walk_os(root):
     # [ Define Root Path to "/sheets" ]
     root_path = str(root) + "/sheets"
@@ -12,16 +16,17 @@ def walk_os(root):
         for name in files:
             # [ Check if file is YML/YAML ]
             if name.endswith('.yml') or name.endswith('.yaml'):
-                print("  ↪", path, "+", name)
                 # [ Add Subdir to name ]
                 if path != root_path:
                     name = path[len(root_path) + 1:] + "/" + name
+                print("  ↪", path, "+", name)
                 # [ Append to File_list ]
                 file_list.append(name)
     return file_list
 
 
 def fetchin(master, root, file_entry, info_tree, stat_tree):
+    pretty_split()
     # [ Check if file is Selected ]
     if file_entry.get() == "Choose a file":
         print("\n> ❌ Choose a file")

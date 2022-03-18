@@ -24,7 +24,7 @@ def init_window(root):
 
 def adjust_master(master):
     # [ Adjust Master ]
-    master.title("Dungeon Memories")
+    master.title("DuMe")
     master.eval('tk::PlaceWindow . center')  # Center Window
 
 

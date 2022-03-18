@@ -1,3 +1,5 @@
+#!/bin/python3
+
 # > Import
 #   ↪ Custom Functions
 from src.interface import *

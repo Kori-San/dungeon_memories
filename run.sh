@@ -37,9 +37,7 @@ else
 fi
 
 #   ↪ 2: Check Dependencies
-pycheck "os"
-pycheck "io"
-pycheck "yaml"
+pycheck "PyYAML"
 pycheck_pkg "python3-tk"
 
 #   ↪ 3: Ask if user want to run DuMe
