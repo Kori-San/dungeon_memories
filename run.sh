@@ -29,18 +29,19 @@ pycheck(){
 # > Begin Script
 #   ↪ 1: Check if pip3 is installed
 if command -v "pip3" 1> /dev/null ; then
+    #  ↪ 2: Skip pip3 install
     echo "'$ pip3' found, skipping install..."
 else
-    #  ↪ 1Bis: Install pip3 if not installed
+    #  ↪ 2Bis: Install pip3
     echo "'$ pip3' not found, installing pip..."
     sudo apt install -q -y pip3 1> /dev/null
 fi
 
-#   ↪ 2: Check Dependencies
+#   ↪ 3: Check Dependencies
 pycheck "PyYAML"
 pycheck_pkg "python3-tk"
 
-#   ↪ 3: Ask if user want to run DuMe
+#   ↪ 4: Ask if user want to run DuMe
 echo "All dependencies were checked, do you want to run the script ? (y/n)"
 read -r answer
 if [ "${answer,,}" == "n" ] || [ "${answer,,}" == "no" ]; then
