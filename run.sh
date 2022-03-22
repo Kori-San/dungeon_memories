@@ -47,4 +47,4 @@ if [ "${answer,,}" == "n" ] || [ "${answer,,}" == "no" ]; then
     exit 0;
 fi
 
-exec ./dume.py
+exec ./dungeon_memories.py
