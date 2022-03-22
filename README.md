@@ -1,6 +1,8 @@
 # Dungeon Memories
 
-<i> <b> Dungeon Memories </i> </b> (abbreviated <i> <b> DuMe </i> </b> ) is a Python 3 Script that will help <b> Dungeon Masters </b> to remember many important information about <b> NPCs </b> for their <b> PRPGs </b> by storing and displaying YAML/YML Sheets on a Tkinter Interface. <br>
+<i> <b> Dungeon Memories </i> </b> (abbreviated <i> <b> DuMe </i> </b> ) is a Python 3 Script that will help <b> Dungeon Masters </b> to remember many important information about <b> NPCs </b> for their <b> PRPGs </b> by storing and displaying YAML/YML Sheets on a Tkinter Interface. <br> <br>
+
+You can check the <i> <b> progress </i> </b> of the project and functionnalities implementation in [./PROGRESS.md](https://github.com/Kori-San/dungeon_memories/blob/main/PROGRESS.md). <br>
 
 # Installation and usage
 
