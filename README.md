@@ -25,7 +25,7 @@ stat:
 Only those keys are required for the Tables to be built right, every other Key/Value within them is customizable. <br> <br>
 <i> Feel free to check out the [./sheets/template.yaml](https://github.com/Kori-San/dungeon_memories/blob/main/sheets/template.yaml) or the [./sheets/Exemples](https://github.com/Kori-San/dungeon_memories/tree/main/sheets/Exemples) files to see how you can build your own DuMe Sheet. </i> <br>
 
-# About DuMe
+# About <i> <b> DuMe </i> </b>
 ## Dependencies
 ###  Python's Non-Included Library
 - [yaml](https://pyyaml.org/wiki/PyYAMLDocumentation)
