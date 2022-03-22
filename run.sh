@@ -31,7 +31,7 @@ pycheck(){
 if command -v "pip3" 1> /dev/null ; then
     echo "'$ pip3' found, skipping install..."
 else
-#   ↪ 1Bis: Install pip3 if not installed
+    #  ↪ 1Bis: Install pip3 if not installed
     echo "'$ pip3' not found, installing pip..."
     sudo apt install -q -y pip3 1> /dev/null
 fi
