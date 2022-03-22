@@ -5,7 +5,7 @@
 # Installation and usage
 
 ## How to install / run <i> <b> DuMe </i> </b> ?
-You can run [./run.sh](https://github.com/Kori-San/dungeon_memories/blob/main/run.sh) in your CLI to check <i> dependencies </i> and install missing ones, after the check you can launch <i> <b> DuMe </i> </b> by running [./run.sh](https://github.com/Kori-San/dungeon_memories/blob/main/run.sh) or [./dume.py](https://github.com/Kori-San/dungeon_memories/blob/main/dume.py). <br> <br>
+You can run [./run.sh](https://github.com/Kori-San/dungeon_memories/blob/main/run.sh) in your CLI to check <i> dependencies </i> and install missing ones, after the check you can launch <i> <b> DuMe </i> </b> by running [./run.sh](https://github.com/Kori-San/dungeon_memories/blob/main/run.sh) or [./dungeon_memories.py](https://github.com/Kori-San/dungeon_memories/blob/main/dungeon_memories.py). <br> <br>
 
 I strongly advise you to launch [./run.sh](https://github.com/Kori-San/dungeon_memories/blob/main/run.sh) every time a new release is made in case a new dependencie has been added. <br>
 
